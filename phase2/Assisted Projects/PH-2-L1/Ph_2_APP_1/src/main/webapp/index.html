@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Vs Post</title>
+</head>
+<body>
+<!-- <a href="GetHandler?name=Umme+Hani&address=Mysore">Do a Servlet GET</a><br><br> -->
+<hr>
+<h2>For Post Handler </h2>
+<form action="http://localhost:8080/Ph_2_APP_1/PostHandler"  method="post" >
+  <input type="text" name="name" id="name" placeholder="Your Name" maxlength=50><br>
+  <input type= "password" name = "password" id="password" placeholder="Password" maxlength="5" ><br>
+  <button>Submit</button>
+</form>
+
+<hr>
+<h2>For Get Handler </h2>
+<form action="http://localhost:8080/Ph_2_APP_1/GetHandler" method="get">
+<input name="name" id = "name" placeholder="Your Name" maxlength=50><br>
+<input name="address" id = "address" placeholder="Adderss" maxlength=100><br>
+  <button>Submit</button>
+</form>
+<hr>
+</body>
+</html>
